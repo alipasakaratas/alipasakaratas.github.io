@@ -1,0 +1,4 @@
+# app-ads.txt for Bloqu (template; see docs/PUBLISHING-SITE.md).
+# Replace pub-XXXXXXXXXXXXXXXX with the AdMob publisher ID, then publish this file at the ROOT of the developer
+# website listed in the App Store / Google Play listing (e.g. https://alipasakaratas.github.io/app-ads.txt).
+google.com, pub-8373500065461344, DIRECT, f08c47fec0942fa0
