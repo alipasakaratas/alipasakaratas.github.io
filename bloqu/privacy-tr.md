@@ -12,7 +12,7 @@ English version: [Privacy Policy (English)](/bloqu/privacy/)
 Bu metin, **Bloqu** mobil oyununun (iOS ve Android) hangi bilgileri işlediğini, neden işlediğini, kimlerle paylaştığını ve haklarınızı açıklar. 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") madde 10 kapsamındaki aydınlatma yükümlülüğü de bu metinle yerine getirilir. İki sürüm arasında fark olursa Türkiye'deki kullanıcılar için bu Türkçe metin esas alınır.
 
 **Veri sorumlusu:** Bloqu'yu geliştiren ve yayımlayan bireysel geliştirici Alipaşa Karataş ("Bloqu geliştiricisi", "biz").
-**İletişim:** alipasakaratas@gmail.com
+**İletişim:** support@alpateknoloji.com
 
 ## 1. Özet
 
@@ -88,7 +88,7 @@ Sonsuz Mod sıralamaları açık olduğunda Bloqu, Google'ın sunduğu **Firebas
 - **App Check**, isteğin gerçek uygulamadan geldiğine dair Apple (App Attest) ya da Google (Play Integrity) doğrulaması gönderir; kişisel veri içermez.
 - Sunucu kayıtları (örneğin zaman, oyuncu kimliği ve skorun kabul edilip edilmediği) güvenlik ve kötüye kullanımın önlenmesi için tutulur.
 
-Sıralama verileri reklam veya takip için kullanılmaz. Sıralama satırlarınızın ve takma adınızın silinmesi için takma adınızla birlikte alipasakaratas@gmail.com adresine yazın; uygulamayı silmek yeni gönderimleri durdurur ama tablolardaki mevcut satırları kaldırmaz.
+Sıralama verileri reklam veya takip için kullanılmaz. Sıralama satırlarınızın ve takma adınızın silinmesi için takma adınızla birlikte support@alpateknoloji.com adresine yazın; uygulamayı silmek yeni gönderimleri durdurur ama tablolardaki mevcut satırları kaldırmaz.
 
 ## 6. Oyun motoru
 
@@ -114,7 +114,7 @@ Kişisel verileriniz, oyunu kullandığınız sırada cihazınızdaki SDK'lar ar
 - **Sıralamalar:** anonim oyuncu kimliği, takma ad ve en iyi skorlar sıralamalar var olduğu sürece ya da silinmesini isteyene kadar saklanır; oyun başına gönderim kayıtları (aynı oyunun iki kez sayılmaması için) kötüye kullanımı önlemek için gerektiği sürece tutulur.
 - **Firebase Analytics:** kullanıcı düzeyindeki olay verileri, Google Analytics ayarlarımızda belirlenen süre boyunca (varsayılan 2 ay, en çok 14 ay) saklanır, sonra silinir. **Crashlytics:** çökme raporları en çok 90 gün saklanır.
 
-Bloqu'da hesap olmadığından verilerinizi adınız veya e-posta adresinizle bulamayız. Analitik verilerinin silinmesini istiyorsanız alipasakaratas@gmail.com adresine yazın; verileri bulabilmemiz için uygulamanın kimliğini nasıl bulacağınızı açıklarız. Reklam kimliğinizi de istediğiniz zaman sıfırlayabilirsiniz (bölüm 3).
+Bloqu'da hesap olmadığından verilerinizi adınız veya e-posta adresinizle bulamayız. Analitik verilerinin silinmesini istiyorsanız support@alpateknoloji.com adresine yazın; verileri bulabilmemiz için uygulamanın kimliğini nasıl bulacağınızı açıklarız. Reklam kimliğinizi de istediğiniz zaman sıfırlayabilirsiniz (bölüm 3).
 
 ## 9. Aktarım ve yurt dışına aktarım
 
@@ -136,7 +136,7 @@ Google ve Apple verileri Türkiye dışında, Amerika Birleşik Devletleri dahil
 - işlenen verilerin münhasıran otomatik sistemlerle analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,
 - kanuna aykırı işleme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme
 
-haklarına sahipsiniz. Başvurunuzu alipasakaratas@gmail.com adresine e-postayla iletebilirsiniz. Başvurular, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca en geç **30 gün** içinde ücretsiz olarak sonuçlandırılır. Başvurunuzun reddedilmesi, cevabı yetersiz bulmanız veya süresinde cevap verilmemesi hâlinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz.
+haklarına sahipsiniz. Başvurunuzu support@alpateknoloji.com adresine e-postayla iletebilirsiniz. Başvurular, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca en geç **30 gün** içinde ücretsiz olarak sonuçlandırılır. Başvurunuzun reddedilmesi, cevabı yetersiz bulmanız veya süresinde cevap verilmemesi hâlinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz.
 
 **AEA / Birleşik Krallık (GDPR, UK GDPR):** erişim, düzeltme, silme, işlemenin kısıtlanması, veri taşınabilirliği, meşru menfaate dayalı işlemeye itiraz ve rızayı istediğiniz zaman geri alma (önceki işlemeleri etkilemeden) haklarına sahipsiniz; ülkenizdeki veri koruma otoritesine şikâyette bulunabilirsiniz.
 
@@ -159,4 +159,4 @@ Bu politikayı, örneğin oyuna yeni bir özellik veya hizmet sağlayıcı eklen
 ## 14. İletişim
 
 Alipaşa Karataş, Bloqu geliştiricisi
-E-posta: **alipasakaratas@gmail.com**
+E-posta: **support@alpateknoloji.com**

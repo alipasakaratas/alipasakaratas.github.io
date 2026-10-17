@@ -5,7 +5,7 @@ permalink: /bloqu/support/
 
 # Bloqu Support
 
-Questions, bugs or purchase problems: email **alipasakaratas@gmail.com** with your device model and the app version (Settings, bottom row). Purchases can be restored with **Settings > Restore purchases**.
+Questions, bugs or purchase problems: email **support@alpateknoloji.com** with your device model and the app version (Settings, bottom row). Purchases can be restored with **Settings > Restore purchases**.
 
 Privacy: [Privacy Policy](/bloqu/privacy/) · [Gizlilik Politikası](/bloqu/privacy-tr/) · Terms: [Terms of Use / Kullanım Koşulları](/bloqu/terms/)
 
@@ -13,4 +13,4 @@ Privacy: [Privacy Policy](/bloqu/privacy/) · [Gizlilik Politikası](/bloqu/priv
 
 # Bloqu Destek
 
-Sorular, hatalar veya satın alma sorunları için cihaz modelini ve uygulama sürümünü (Ayarlar, en alt satır) yazarak **alipasakaratas@gmail.com** adresine e-posta gönder. Satın alımlarını **Ayarlar > Satın alımları geri yükle** ile geri alabilirsin.
+Sorular, hatalar veya satın alma sorunları için cihaz modelini ve uygulama sürümünü (Ayarlar, en alt satır) yazarak **support@alpateknoloji.com** adresine e-posta gönder. Satın alımlarını **Ayarlar > Satın alımları geri yükle** ile geri alabilirsin.

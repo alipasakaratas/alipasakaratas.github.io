@@ -11,7 +11,7 @@ Türkçe sürüm: [Gizlilik Politikası (Türkçe)](/bloqu/privacy-tr/)
 
 This policy explains what information the mobile game **Bloqu** (iOS and Android) handles, why, who it is shared with, and the choices you have. Bloqu is made by an individual developer, Alipaşa Karataş ("the developer of Bloqu", "we", "us").
 
-Contact for any privacy question or request: **alipasakaratas@gmail.com**
+Contact for any privacy question or request: **support@alpateknoloji.com**
 
 ## 1. Summary
 
@@ -87,7 +87,7 @@ When the Endless leaderboards are available, Bloqu uses **Firebase Authenticatio
 - **App Check** sends an attestation from Apple (App Attest) or Google (Play Integrity) that the request comes from the genuine app; it contains no personal data.
 - Server logs (for example the time, the player ID and whether a score was accepted) are kept for security and abuse prevention.
 
-The leaderboard data is not used for advertising or tracking. To have your leaderboard rows and nickname deleted, contact us at alipasakaratas@gmail.com with your nickname; deleting the app stops further submissions but does not remove rows already on the boards.
+The leaderboard data is not used for advertising or tracking. To have your leaderboard rows and nickname deleted, contact us at support@alpateknoloji.com with your nickname; deleting the app stops further submissions but does not remove rows already on the boards.
 
 ## 6. Game engine
 
@@ -111,7 +111,7 @@ Bloqu is built with the Unity engine (Unity Technologies). Unity's cloud analyti
 - **Leaderboards:** the anonymous player ID, nickname and best scores are kept while the leaderboards exist, or until you ask us to delete them; per-game submission records (used to reject duplicates) are kept for as long as needed to prevent abuse.
 - **Firebase Analytics:** user-level event data is kept for the retention period set in our Google Analytics settings (2 months by default, at most 14 months), then deleted. **Crashlytics:** crash reports are kept for up to 90 days.
 
-Because Bloqu has no accounts, we cannot find your data by your name or email. If you want us to delete analytics data, contact us at alipasakaratas@gmail.com; we will explain how to find the app's identifier so we can locate it. You can also reset your advertising ID at any time (section 3).
+Because Bloqu has no accounts, we cannot find your data by your name or email. If you want us to delete analytics data, contact us at support@alpateknoloji.com; we will explain how to find the app's identifier so we can locate it. You can also reset your advertising ID at any time (section 3).
 
 ## 9. Sharing
 
@@ -127,7 +127,7 @@ Depending on where you live, you have rights over your personal data:
 - **Turkey (KVKK, Law No. 6698):** the rights listed in Article 11, including learning whether your data is processed, requesting information, learning the purpose, knowing the third parties it is transferred to, correction, deletion, objection and compensation. See the Turkish version of this policy for details.
 - **California (CCPA/CPRA) and other U.S. states:** the right to know, delete and correct personal information, and to opt out of the "sale" or "sharing" of personal information for cross-context behavioural advertising. AdMob's use of advertising identifiers may count as "sharing"; you can opt out by refusing tracking on iOS or deleting/resetting your advertising ID or opting out of ads personalisation on Android (section 3). We will not treat you differently for using these rights.
 
-To use any right, email **alipasakaratas@gmail.com**. We will answer within 30 days. Since we do not hold an account for you, we may ask for information needed to locate your data (such as the app instance ID).
+To use any right, email **support@alpateknoloji.com**. We will answer within 30 days. Since we do not hold an account for you, we may ask for information needed to locate your data (such as the app instance ID).
 
 ## 11. Children
 
@@ -144,4 +144,4 @@ We may update this policy, for example when the game adds a feature or a service
 ## 14. Contact
 
 Alipaşa Karataş, developer of Bloqu
-Email: **alipasakaratas@gmail.com**
+Email: **support@alpateknoloji.com**

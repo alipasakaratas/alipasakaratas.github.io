@@ -22,7 +22,7 @@ These terms apply to the mobile game **Bloqu** (iOS and Android), made by Alipa�
 9. **Changes.** We may update these terms; the effective date above shows the latest version. Continuing to play means you accept the update.
 10. **Law.** Nothing in these terms limits the consumer rights you have under the law of the country where you live.
 
-Contact: **alipasakaratas@gmail.com** · [Support](/bloqu/support/)
+Contact: **support@alpateknoloji.com** · [Support](/bloqu/support/)
 
 ---
 
@@ -43,4 +43,4 @@ Bu koşullar Alipaşa Karataş tarafından geliştirilen **Bloqu** mobil oyunu (
 9. **Değişiklikler.** Bu koşulları güncelleyebiliriz; yukarıdaki tarih son sürümü gösterir. Oynamaya devam etmen güncellemeyi kabul ettiğin anlamına gelir.
 10. **Hukuk.** Bu koşullar, yaşadığın ülkenin hukukunun sana tanıdığı tüketici haklarını sınırlamaz.
 
-İletişim: **alipasakaratas@gmail.com** · [Destek](/bloqu/support/)
+İletişim: **support@alpateknoloji.com** · [Destek](/bloqu/support/)
