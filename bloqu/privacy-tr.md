@@ -5,7 +5,7 @@ permalink: /bloqu/privacy-tr/
 
 # Bloqu Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-**Yürürlük tarihi:** 14 Ekim 2026
+**Yürürlük tarihi:** 17 Ekim 2026
 
 English version: [Privacy Policy (English)](/bloqu/privacy/)
 
@@ -16,7 +16,7 @@ Bu metin, **Bloqu** mobil oyununun (iOS ve Android) hangi bilgileri işlediğini
 
 ## 1. Özet
 
-- Bloqu'da **hesap ya da üyelik yoktur**. Adınızı, e-posta adresinizi, telefon numaranızı, rehberinizi, fotoğraflarınızı veya kesin konumunuzu istemeyiz.
+- Bloqu'da **hesap ya da üyelik yoktur**. Adınızı, e-posta adresinizi, telefon numaranızı, rehberinizi, fotoğraflarınızı veya kesin konumunuzu istemeyiz. Sonsuz Mod sıralamaları için oyun cihazınıza **anonim bir oyuncu kimliği** oluşturur (kişisel bilgi içermez) ve Sonsuz skorlarınızı bir **takma adla** gösterir (kendiniz seçmezseniz "Oyuncu1234" gibi rastgele bir ad).
 - Oyun ilerlemeniz **yalnızca cihazınızda** saklanır.
 - Oyun ücretsizdir; **reklamlarla (Google AdMob)** ve isteğe bağlı **uygulama içi satın almalarla** finanse edilir. Reklamlar cihaz tanımlayıcılarını kullanır; kişiselleştirilmiş reklam yalnızca izin verdiğiniz durumda gösterilir.
 - Oyunun nasıl oynandığını anlamak ve çökmeleri gidermek için **Google Firebase** kullanırız.
@@ -78,6 +78,18 @@ Bunların hiçbiri adınıza veya bir hesaba bağlanmaz ve sizi başka şirketle
 
 - Firebase gizlilik ve güvenlik: https://firebase.google.com/support/privacy
 
+## 5a. Sıralamalar (Firebase Authentication, Cloud Firestore, Cloud Functions, App Check)
+
+Sonsuz Mod sıralamaları açık olduğunda Bloqu, Google'ın sunduğu **Firebase Authentication** (anonim giriş), **Cloud Firestore**, **Cloud Functions** ve **Firebase App Check** hizmetlerini kullanır (sunucular AB'de, europe-west1 bölgesinde).
+
+- **Anonim oyuncu kimliği:** oyun sıralamaya ilk bağlandığında anonim olarak giriş yapar. Firebase bu kurulum için rastgele bir kullanıcı kimliği oluşturur; bu kimlik adınız, e-postanız, telefon numaranız veya mağaza hesabınızla ilişkilendirilmez. Satırlarınız size ait kalsın diye cihazınızda saklanır.
+- **Takma ad:** size rastgele bir takma ad verilir (örneğin "Oyuncu1234" / "Player1234"); Sıralama ekranından değiştirebilirsiniz. Takma adlar **herkese açıktır**: tüm oyuncular skorların yanında görür. Lütfen gerçek adınızı ya da kişisel bir bilgiyi kullanmayın. Takma adlar uygunsuz kelime listesine göre denetlenir.
+- **Skorlar:** her Sonsuz oyunun sonunda oyun, sunucunun skorun makul olduğunu denetleyebilmesi ve her oyunu bir kez sayabilmesi için son skorunuzu hamle sayısı, temizlenen satır sayısı, oynama süresi, rastgele bir oyun kimliği ve uygulama sürümüyle birlikte gönderir. Tüm zamanların en iyi skorunuz ve her haftanın en iyi skorunuz (takma adınız ve elde edildiği zamanla) saklanır ve sıralamada tüm oyunculara gösterilir. Haftalık tablolar geçmiş olarak saklanır. Bağlantı yokken gönderilemeyen skorlar cihazınızda bekler ve sonra gönderilir.
+- **App Check**, isteğin gerçek uygulamadan geldiğine dair Apple (App Attest) ya da Google (Play Integrity) doğrulaması gönderir; kişisel veri içermez.
+- Sunucu kayıtları (örneğin zaman, oyuncu kimliği ve skorun kabul edilip edilmediği) güvenlik ve kötüye kullanımın önlenmesi için tutulur.
+
+Sıralama verileri reklam veya takip için kullanılmaz. Sıralama satırlarınızın ve takma adınızın silinmesi için takma adınızla birlikte alipasakaratas@gmail.com adresine yazın; uygulamayı silmek yeni gönderimleri durdurur ama tablolardaki mevcut satırları kaldırmaz.
+
 ## 6. Oyun motoru
 
 Bloqu, Unity Technologies'in Unity motoruyla geliştirilmiştir. Unity'nin bulut analitik, bulut tanılama ve reklam hizmetleri Bloqu'da kapalıdır. Unity çalışma ortamı yine de Unity'ye kişisel olmayan sınırlı donanım bilgileri (cihaz modeli, işletim sistemi sürümü gibi) gönderebilir. Bkz. https://unity.com/legal/game-player-and-app-user-privacy-policy
@@ -93,11 +105,13 @@ Kişisel verileriniz, oyunu kullandığınız sırada cihazınızdaki SDK'lar ar
 | Kişiselleştirilmemiş reklam, sıklık sınırı, sahtekârlığın önlenmesi | Veri sorumlusunun meşru menfaati (m.5/2-f): ücretsiz oyunun finansmanı | Meşru menfaat; mevzuat rıza gerektiriyorsa izin mesajında sorulur |
 | Analitik, çökme raporları ve uzaktan ayarlar (Firebase) | Veri sorumlusunun meşru menfaati (m.5/2-f): oyunun kararlı tutulması ve geliştirilmesi | Meşru menfaat; mevzuat rıza gerektiriyorsa izin mesajında sorulur |
 | Satın almaların doğrulanması | Sözleşmenin kurulması veya ifası (m.5/2-c) | Sözleşmenin ifası |
+| Sıralamalar (anonim oyuncu kimliği, takma ad, skorlar, App Check) | Sözleşmenin kurulması veya ifası (m.5/2-c): kullandığınız sıralama özelliğinin sunulması; meşru menfaat (m.5/2-f): adil sıralama ve kötüye kullanımın önlenmesi | Hizmetin sunulması için zorunluluk; meşru menfaat |
 
 ## 8. Saklama süreleri ve silme
 
 - **Cihazınızda:** uygulamayı silene kadar (veya Android'de uygulama verilerini temizleyene kadar) saklanır. Uygulamayı silmek, ilerleme ve jetonlar dahil Bloqu'nun cihazda sakladığı her şeyi siler; Reklamları Kaldır ve tema satın almaları **Ayarlar > Restore purchases** ile mağazadan geri yüklenebilir.
 - **Google AdMob:** Google tarafından, yukarıda bağlantısı verilen politikalarında açıklandığı süre boyunca saklanır.
+- **Sıralamalar:** anonim oyuncu kimliği, takma ad ve en iyi skorlar sıralamalar var olduğu sürece ya da silinmesini isteyene kadar saklanır; oyun başına gönderim kayıtları (aynı oyunun iki kez sayılmaması için) kötüye kullanımı önlemek için gerektiği sürece tutulur.
 - **Firebase Analytics:** kullanıcı düzeyindeki olay verileri, Google Analytics ayarlarımızda belirlenen süre boyunca (varsayılan 2 ay, en çok 14 ay) saklanır, sonra silinir. **Crashlytics:** çökme raporları en çok 90 gün saklanır.
 
 Bloqu'da hesap olmadığından verilerinizi adınız veya e-posta adresinizle bulamayız. Analitik verilerinin silinmesini istiyorsanız alipasakaratas@gmail.com adresine yazın; verileri bulabilmemiz için uygulamanın kimliğini nasıl bulacağınızı açıklarız. Reklam kimliğinizi de istediğiniz zaman sıfırlayabilirsiniz (bölüm 3).

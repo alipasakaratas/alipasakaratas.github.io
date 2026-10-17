@@ -7,7 +7,7 @@ permalink: /bloqu/support/
 
 Questions, bugs or purchase problems: email **alipasakaratas@gmail.com** with your device model and the app version (Settings, bottom row). Purchases can be restored with **Settings > Restore purchases**.
 
-Privacy: [Privacy Policy](/bloqu/privacy/) · [Gizlilik Politikası](/bloqu/privacy-tr/)
+Privacy: [Privacy Policy](/bloqu/privacy/) · [Gizlilik Politikası](/bloqu/privacy-tr/) · Terms: [Terms of Use / Kullanım Koşulları](/bloqu/terms/)
 
 ---
 

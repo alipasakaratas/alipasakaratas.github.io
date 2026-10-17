@@ -5,7 +5,7 @@ permalink: /bloqu/privacy/
 
 # Bloqu Privacy Policy
 
-**Effective date:** 14 October 2026
+**Effective date:** 17 October 2026
 
 Türkçe sürüm: [Gizlilik Politikası (Türkçe)](/bloqu/privacy-tr/)
 
@@ -15,7 +15,7 @@ Contact for any privacy question or request: **alipasakaratas@gmail.com**
 
 ## 1. Summary
 
-- Bloqu has **no account and no sign-in**. We do not ask for your name, email address, phone number, contacts, photos or precise location.
+- Bloqu has **no account and no sign-in**. We do not ask for your name, email address, phone number, contacts, photos or precise location. For the Endless leaderboards the game creates an **anonymous player ID** for your device (no personal details), and shows your Endless scores with a **nickname** (a random one such as "Player1234" unless you choose your own).
 - Your game progress is stored **only on your device**.
 - The game is free and funded by **ads (Google AdMob)** and optional **in-app purchases**. Ads use device identifiers; personalised ads are shown only where you have allowed them.
 - We use **Google Firebase** to understand how the game is played and to fix crashes.
@@ -77,6 +77,18 @@ None of these is linked to your name or an account, and we do not use them to tr
 
 - Firebase privacy and security: https://firebase.google.com/support/privacy
 
+## 5a. Leaderboards (Firebase Authentication, Cloud Firestore, Cloud Functions, App Check)
+
+When the Endless leaderboards are available, Bloqu uses **Firebase Authentication** (anonymous sign-in), **Cloud Firestore**, **Cloud Functions** and **Firebase App Check**, provided by Google (servers in the EU, region europe-west1).
+
+- **Anonymous player ID:** the first time the game talks to the leaderboard it signs in anonymously. Firebase creates a random user ID for this installation; it is not linked to your name, email, phone number or store account. It is kept on your device so your rows stay yours.
+- **Nickname:** you get a random nickname (for example "Player1234" / "Oyuncu1234"); you can change it in Rankings. Nicknames are **public**: every player can see them next to scores. Please do not use your real name or anything personal. Nicknames are checked against a list of offensive words.
+- **Scores:** at the end of each Endless game the game sends your final score with the number of moves, lines cleared, play time, a random game ID and the app version, so the server can check that the score is plausible and count each game once. Your best all-time score and your best score of each week (with your nickname and the time it was achieved) are stored and shown to all players on the leaderboards. Weekly boards are kept as history. Scores that could not be sent (no connection) wait on your device and are sent later.
+- **App Check** sends an attestation from Apple (App Attest) or Google (Play Integrity) that the request comes from the genuine app; it contains no personal data.
+- Server logs (for example the time, the player ID and whether a score was accepted) are kept for security and abuse prevention.
+
+The leaderboard data is not used for advertising or tracking. To have your leaderboard rows and nickname deleted, contact us at alipasakaratas@gmail.com with your nickname; deleting the app stops further submissions but does not remove rows already on the boards.
+
 ## 6. Game engine
 
 Bloqu is built with the Unity engine (Unity Technologies). Unity's cloud analytics, cloud diagnostics and ads services are turned off in Bloqu. The Unity runtime may still send limited, non-personal hardware information (such as device model and OS version) to Unity. See https://unity.com/legal/game-player-and-app-user-privacy-policy
@@ -90,11 +102,13 @@ Bloqu is built with the Unity engine (Unity Technologies). Unity's cloud analyti
 | Non-personalised ads, frequency capping, fraud prevention | Our legitimate interest in funding a free game; where the law requires consent, we ask for it in the consent message |
 | Analytics, crash reports and remote settings (Firebase) | Our legitimate interest in keeping the game stable and improving it; where the law requires consent, we ask for it |
 | Verifying purchases | Necessary to perform the purchase contract |
+| Leaderboards (anonymous player ID, nickname, scores, App Check) | Necessary to provide the leaderboard feature you use; our legitimate interest in fair rankings and preventing abuse |
 
 ## 8. Retention and deletion
 
 - **On your device:** kept until you delete the app (or clear its data on Android). Deleting the app deletes everything Bloqu stored locally, including progress and coins; purchases of Remove Ads and themes can be restored from the store with **Settings > Restore purchases**.
 - **Google AdMob:** retained by Google as described in Google's policies above.
+- **Leaderboards:** the anonymous player ID, nickname and best scores are kept while the leaderboards exist, or until you ask us to delete them; per-game submission records (used to reject duplicates) are kept for as long as needed to prevent abuse.
 - **Firebase Analytics:** user-level event data is kept for the retention period set in our Google Analytics settings (2 months by default, at most 14 months), then deleted. **Crashlytics:** crash reports are kept for up to 90 days.
 
 Because Bloqu has no accounts, we cannot find your data by your name or email. If you want us to delete analytics data, contact us at alipasakaratas@gmail.com; we will explain how to find the app's identifier so we can locate it. You can also reset your advertising ID at any time (section 3).
