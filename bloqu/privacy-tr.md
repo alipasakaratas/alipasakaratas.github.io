@@ -2,10 +2,9 @@
 title: Bloqu Gizlilik Politikası
 permalink: /bloqu/privacy-tr/
 ---
-
 # Bloqu Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-**Yürürlük tarihi:** 17 Ekim 2026
+**Yürürlük tarihi:** 6 Kasım 2026
 
 English version: [Privacy Policy (English)](/bloqu/privacy/)
 
@@ -29,7 +28,7 @@ Bloqu, cihazınızda uygulamaya özel alanda bir kayıt dosyası tutar. İçeri�
 - oyun ilerlemesi (skorlar, Adventure levelleri, jetonlar, görevler, günlük seri, açılan temalar, öğretici durumu);
 - ayarlar (ses, müzik, titreşim, dil);
 - reklam sıklığı sayaçları (örneğin son reklamın ne zaman gösterildiği, reklamlar çok sık çıkmasın diye);
-- satın aldıklarınız (Reklamları Kaldır, temalar, Başlangıç Paketi içeriği) ve bu satın almaların mağaza **işlem numaraları** (bir satın alma iki kez teslim edilmesin diye).
+- satın aldıklarınız (Reklamları Kaldır; artık satışta olmayan eski tema veya Başlangıç Paketi satın almaları) ve bu satın almaların mağaza **işlem numaraları** (bir satın alma iki kez teslim edilmesin diye).
 
 Bu dosya bize gönderilmez. Cihaz ayarlarınıza göre cihazınızın kendi yedeğine (iCloud veya Google yedeği) dahil olabilir. Uygulamayı silmek dosyayı da siler.
 
@@ -61,6 +60,8 @@ Ayrıntılı bilgi:
 
 ## 4. Uygulama içi satın almalar
 
+Satışta olan tek ürün Reklamları Kaldır'dır; temalar oyunda kazanılan jetonlarla açılır.
+
 Satın almalar **Apple (App Store)** veya **Google (Google Play)** tarafından, kendi koşulları ve gizlilik politikaları çerçevesinde işlenir. Kart bilgilerinizi, adınızı veya fatura adresinizi hiçbir zaman almayız. Mağaza oyuna hangi ürünün alındığını bildirir ve bir işlem numarası verir; oyun bunu doğrular ve cihazınızda saklar (bkz. bölüm 2). Oyun ayrıca satın alma olayını (ürün ve sonuç; ödeme bilgisi olmadan) Firebase Analytics'e bildirir (bölüm 5).
 
 - Apple Gizlilik Politikası: https://www.apple.com/tr/legal/privacy/
@@ -86,6 +87,10 @@ Sonsuz Mod sıralamaları açık olduğunda Bloqu, Google'ın sunduğu **Firebas
 - **Takma ad:** size rastgele bir takma ad verilir (örneğin "Oyuncu1234" / "Player1234"); Sıralama ekranından değiştirebilirsiniz. Takma adlar **herkese açıktır**: tüm oyuncular skorların yanında görür. Lütfen gerçek adınızı ya da kişisel bir bilgiyi kullanmayın. Takma adlar uygunsuz kelime listesine göre denetlenir.
 - **Skorlar:** her Sonsuz oyunun sonunda oyun, sunucunun skorun makul olduğunu denetleyebilmesi ve her oyunu bir kez sayabilmesi için son skorunuzu hamle sayısı, temizlenen satır sayısı, oynama süresi, rastgele bir oyun kimliği ve uygulama sürümüyle birlikte gönderir. Tüm zamanların en iyi skorunuz ve her haftanın en iyi skorunuz (takma adınız ve elde edildiği zamanla) saklanır ve sıralamada tüm oyunculara gösterilir. Haftalık tablolar geçmiş olarak saklanır. Bağlantı yokken gönderilemeyen skorlar cihazınızda bekler ve sonra gönderilir.
 - **App Check**, isteğin gerçek uygulamadan geldiğine dair Apple (App Attest) ya da Google (Play Integrity) doğrulaması gönderir; kişisel veri içermez.
+- **Kurallar:** Sıralama ekranını ilk açtığınızda kurallarını kabul etmeniz istenir (saygılı olun; uygunsuz takma adlar kaldırılır ve oyuncular yasaklanabilir). Yalnızca kabul ettiğiniz bilgisi, cihazınızda saklanır.
+- **Şikâyetler:** başka bir oyuncuyu Sıralama satırındaki "diğer" düğmesinden şikâyet edebilirsiniz (sebep: uygunsuz takma ad, hileli skor ya da başka bir şey). Şikâyette anonim oyuncu kimliğiniz, şikâyet edilen oyuncunun anonim oyuncu kimliği, tablo, sebep, şikâyet edilen takma adın o anki kopyası ve zaman saklanır. Şikâyetleri yalnızca geliştirici okuyabilir, diğer oyuncular okuyamaz; şikâyet edilen oyuncuya kimin şikâyet ettiği söylenmez.
+- **Engellenen oyuncular:** aynı menüden bir oyuncuyu engelleyebilir, **Ayarlar > Engellenen oyuncular** bölümünden engeli kaldırabilirsiniz. Engellenen oyuncuların listesi (anonim oyuncu kimlikleri ve engelleme anındaki takma ad kopyaları, en fazla 200) cihazınızda ve sunucudaki oyuncu kaydınızda (`players/{kimliğiniz}`) saklanır; böylece aynı anonim hesap var olduğu sürece yeniden kurulumda geri gelir. Engellenen oyuncuların skorları yalnızca sizin cihazınızda gizlenir; onlara bildirilmez.
+- **Moderasyon:** birden fazla farklı oyuncu aynı takma adı uygunsuz diye şikâyet ettiğinde ad varsayılan bir takma ada sıfırlanır ve birkaç gün kilitlenir; birden fazla oyuncu bir skoru hileli diye şikâyet ettiğinde skor incelenene kadar tablolardan gizlenir. Geliştirici şikâyetleri 24 saat içinde inceler; takma adları ya da skorları kaldırabilir ve bir anonim oyuncu kimliğini sıralamalardan yasaklayabilir. Yasak, sebebi ve tarihiyle saklanır. Yeni şikâyetlerin günlük özeti destek e-posta kutusuna gönderilir.
 - Sunucu kayıtları (örneğin zaman, oyuncu kimliği ve skorun kabul edilip edilmediği) güvenlik ve kötüye kullanımın önlenmesi için tutulur.
 
 Sıralama verileri reklam veya takip için kullanılmaz. Sıralama satırlarınızın ve takma adınızın silinmesi için takma adınızla birlikte support@alpateknoloji.com adresine yazın; uygulamayı silmek yeni gönderimleri durdurur ama tablolardaki mevcut satırları kaldırmaz.
@@ -106,12 +111,13 @@ Kişisel verileriniz, oyunu kullandığınız sırada cihazınızdaki SDK'lar ar
 | Analitik, çökme raporları ve uzaktan ayarlar (Firebase) | Veri sorumlusunun meşru menfaati (m.5/2-f): oyunun kararlı tutulması ve geliştirilmesi | Meşru menfaat; mevzuat rıza gerektiriyorsa izin mesajında sorulur |
 | Satın almaların doğrulanması | Sözleşmenin kurulması veya ifası (m.5/2-c) | Sözleşmenin ifası |
 | Sıralamalar (anonim oyuncu kimliği, takma ad, skorlar, App Check) | Sözleşmenin kurulması veya ifası (m.5/2-c): kullandığınız sıralama özelliğinin sunulması; meşru menfaat (m.5/2-f): adil sıralama ve kötüye kullanımın önlenmesi | Hizmetin sunulması için zorunluluk; meşru menfaat |
+| Şikâyetler, engellenen oyuncular, moderasyon ve yasaklar | Sözleşmenin kurulması veya ifası (m.5/2-c): kullandığınız şikâyet ve engelleme özelliklerinin sunulması; meşru menfaat (m.5/2-f): sıralamaların güvenli tutulması ve uygulama mağazası kurallarına uyum | Hizmetin sunulması için zorunluluk; meşru menfaat |
 
 ## 8. Saklama süreleri ve silme
 
-- **Cihazınızda:** uygulamayı silene kadar (veya Android'de uygulama verilerini temizleyene kadar) saklanır. Uygulamayı silmek, ilerleme ve jetonlar dahil Bloqu'nun cihazda sakladığı her şeyi siler; Reklamları Kaldır ve tema satın almaları **Ayarlar > Restore purchases** ile mağazadan geri yüklenebilir.
+- **Cihazınızda:** uygulamayı silene kadar (veya Android'de uygulama verilerini temizleyene kadar) saklanır. Uygulamayı silmek, ilerleme ve jetonlar dahil Bloqu'nun cihazda sakladığı her şeyi siler; Reklamları Kaldır (ve eski tema satın almaları) **Ayarlar > Restore purchases** ile mağazadan geri yüklenebilir.
 - **Google AdMob:** Google tarafından, yukarıda bağlantısı verilen politikalarında açıklandığı süre boyunca saklanır.
-- **Sıralamalar:** anonim oyuncu kimliği, takma ad ve en iyi skorlar sıralamalar var olduğu sürece ya da silinmesini isteyene kadar saklanır; oyun başına gönderim kayıtları (aynı oyunun iki kez sayılmaması için) kötüye kullanımı önlemek için gerektiği sürece tutulur.
+- **Sıralamalar:** anonim oyuncu kimliği, takma ad ve en iyi skorlar sıralamalar var olduğu sürece ya da silinmesini isteyene kadar saklanır; oyun başına gönderim kayıtları (aynı oyunun iki kez sayılmaması için) kötüye kullanımı önlemek için gerektiği sürece tutulur. Engellenen oyuncular listeniz anonim hesabınız var olduğu sürece sunucuda (ve uygulamayı silene kadar cihazınızda) tutulur; engeli kaldırılan oyuncu listeden çıkar. Şikâyetler, yasaklar ve günlük moderasyon özetleri, tekrarlanan kötüye kullanımın tanınabilmesi için sıralamalar var olduğu sürece moderasyon kaydı olarak saklanır; yaptığınız şikâyetlerin silinmesini support@alpateknoloji.com adresinden isteyebilirsiniz.
 - **Firebase Analytics:** kullanıcı düzeyindeki olay verileri, Google Analytics ayarlarımızda belirlenen süre boyunca (varsayılan 2 ay, en çok 14 ay) saklanır, sonra silinir. **Crashlytics:** çökme raporları en çok 90 gün saklanır.
 
 Bloqu'da hesap olmadığından verilerinizi adınız veya e-posta adresinizle bulamayız. Analitik verilerinin silinmesini istiyorsanız support@alpateknoloji.com adresine yazın; verileri bulabilmemiz için uygulamanın kimliğini nasıl bulacağınızı açıklarız. Reklam kimliğinizi de istediğiniz zaman sıfırlayabilirsiniz (bölüm 3).

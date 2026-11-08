@@ -2,10 +2,9 @@
 title: Bloqu Privacy Policy
 permalink: /bloqu/privacy/
 ---
-
 # Bloqu Privacy Policy
 
-**Effective date:** 17 October 2026
+**Effective date:** 6 November 2026
 
 Türkçe sürüm: [Gizlilik Politikası (Türkçe)](/bloqu/privacy-tr/)
 
@@ -28,7 +27,7 @@ Bloqu keeps a save file in the app's private storage on your device. It contains
 - game progress (scores, Adventure levels, coins, missions, daily streak, unlocked themes, tutorial status);
 - settings (sound, music, vibration, language);
 - ad pacing counters (for example when the last ad was shown, so ads are not shown too often);
-- what you have bought (Remove Ads, themes, Starter Pack contents) and the store's **transaction IDs** for those purchases, so a purchase is never delivered twice.
+- what you have bought (Remove Ads; earlier purchases of themes or the Starter Pack, which are no longer on sale) and the store's **transaction IDs** for those purchases, so a purchase is never delivered twice.
 
 This file is not sent to us. It may be included in your device's own backup (iCloud or Google backup) depending on your device settings. Deleting the app deletes the file.
 
@@ -60,6 +59,8 @@ More information:
 
 ## 4. In-app purchases
 
+The only item on sale is Remove Ads; themes are unlocked with coins earned by playing.
+
 Purchases are processed by **Apple (App Store)** or **Google (Google Play)** under their own terms and privacy policies. We never receive your payment card details, name or billing address. The store tells the game which product was bought and gives it a transaction ID, which the game verifies and keeps on your device (see section 2). The game also reports the purchase event (product and result, without any payment details) to Firebase Analytics (section 5).
 
 - Apple Privacy Policy: https://www.apple.com/legal/privacy/
@@ -85,6 +86,10 @@ When the Endless leaderboards are available, Bloqu uses **Firebase Authenticatio
 - **Nickname:** you get a random nickname (for example "Player1234" / "Oyuncu1234"); you can change it in Rankings. Nicknames are **public**: every player can see them next to scores. Please do not use your real name or anything personal. Nicknames are checked against a list of offensive words.
 - **Scores:** at the end of each Endless game the game sends your final score with the number of moves, lines cleared, play time, a random game ID and the app version, so the server can check that the score is plausible and count each game once. Your best all-time score and your best score of each week (with your nickname and the time it was achieved) are stored and shown to all players on the leaderboards. Weekly boards are kept as history. Scores that could not be sent (no connection) wait on your device and are sent later.
 - **App Check** sends an attestation from Apple (App Attest) or Google (Play Integrity) that the request comes from the genuine app; it contains no personal data.
+- **Rules:** the first time you open Rankings you are asked to accept its rules (be respectful; offensive nicknames are removed and players can be banned). Only the fact that you accepted is stored, on your device.
+- **Reports:** you can report another player from the "more" button on their Rankings row (reason: offensive nickname, cheating score or something else). The report stores your anonymous player ID, the reported player's anonymous player ID, the board, the reason, a copy of the reported nickname at that moment and the time. Reports are only readable by the developer, never by other players, and the reported player is not told who reported them.
+- **Blocked players:** you can block a player from the same menu, and unblock them in **Settings > Blocked players**. The list of blocked players (their anonymous player IDs and a copy of each nickname at the time of blocking, at most 200) is stored on your device and in your player record on the server (`players/{your ID}`), so it comes back if you reinstall while the same anonymous account exists. Blocked players' scores are hidden only on your device; they are not told.
+- **Moderation:** when several different players report the same nickname as offensive, it is reset to a default nickname and locked for a few days; when several report a score as cheating, that score is hidden from the boards until reviewed. The developer reviews reports within 24 hours and can remove nicknames or scores and ban an anonymous player ID from the leaderboards. A ban is stored with its reason and date. A daily summary of new reports is sent to the support mailbox.
 - Server logs (for example the time, the player ID and whether a score was accepted) are kept for security and abuse prevention.
 
 The leaderboard data is not used for advertising or tracking. To have your leaderboard rows and nickname deleted, contact us at support@alpateknoloji.com with your nickname; deleting the app stops further submissions but does not remove rows already on the boards.
@@ -103,12 +108,13 @@ Bloqu is built with the Unity engine (Unity Technologies). Unity's cloud analyti
 | Analytics, crash reports and remote settings (Firebase) | Our legitimate interest in keeping the game stable and improving it; where the law requires consent, we ask for it |
 | Verifying purchases | Necessary to perform the purchase contract |
 | Leaderboards (anonymous player ID, nickname, scores, App Check) | Necessary to provide the leaderboard feature you use; our legitimate interest in fair rankings and preventing abuse |
+| Reports, blocked players, moderation and bans | Necessary to provide the report and block features you use; our legitimate interest in keeping the leaderboards safe and complying with app store rules |
 
 ## 8. Retention and deletion
 
-- **On your device:** kept until you delete the app (or clear its data on Android). Deleting the app deletes everything Bloqu stored locally, including progress and coins; purchases of Remove Ads and themes can be restored from the store with **Settings > Restore purchases**.
+- **On your device:** kept until you delete the app (or clear its data on Android). Deleting the app deletes everything Bloqu stored locally, including progress and coins; purchases of Remove Ads (and earlier theme purchases) can be restored from the store with **Settings > Restore purchases**.
 - **Google AdMob:** retained by Google as described in Google's policies above.
-- **Leaderboards:** the anonymous player ID, nickname and best scores are kept while the leaderboards exist, or until you ask us to delete them; per-game submission records (used to reject duplicates) are kept for as long as needed to prevent abuse.
+- **Leaderboards:** the anonymous player ID, nickname and best scores are kept while the leaderboards exist, or until you ask us to delete them; per-game submission records (used to reject duplicates) are kept for as long as needed to prevent abuse. Your blocked players list is kept on the server while your anonymous account exists (and on your device until you delete the app); unblocking a player removes them from it. Reports, bans and daily moderation summaries are kept as the moderation record for as long as the leaderboards exist, so repeated abuse can be recognised; ask us at support@alpateknoloji.com if you want reports you made removed.
 - **Firebase Analytics:** user-level event data is kept for the retention period set in our Google Analytics settings (2 months by default, at most 14 months), then deleted. **Crashlytics:** crash reports are kept for up to 90 days.
 
 Because Bloqu has no accounts, we cannot find your data by your name or email. If you want us to delete analytics data, contact us at support@alpateknoloji.com; we will explain how to find the app's identifier so we can locate it. You can also reset your advertising ID at any time (section 3).
