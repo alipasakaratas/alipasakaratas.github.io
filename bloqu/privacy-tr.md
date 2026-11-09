@@ -4,7 +4,7 @@ permalink: /bloqu/privacy-tr/
 ---
 # Bloqu Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-**Yürürlük tarihi:** 6 Kasım 2026
+**Yürürlük tarihi:** 9 Kasım 2026
 
 English version: [Privacy Policy (English)](/bloqu/privacy/)
 
@@ -86,6 +86,7 @@ Sonsuz Mod sıralamaları açık olduğunda Bloqu, Google'ın sunduğu **Firebas
 - **Anonim oyuncu kimliği:** oyun sıralamaya ilk bağlandığında anonim olarak giriş yapar. Firebase bu kurulum için rastgele bir kullanıcı kimliği oluşturur; bu kimlik adınız, e-postanız, telefon numaranız veya mağaza hesabınızla ilişkilendirilmez. Satırlarınız size ait kalsın diye cihazınızda saklanır.
 - **Takma ad:** size rastgele bir takma ad verilir (örneğin "Oyuncu1234" / "Player1234"); Sıralama ekranından değiştirebilirsiniz. Takma adlar **herkese açıktır**: tüm oyuncular skorların yanında görür. Lütfen gerçek adınızı ya da kişisel bir bilgiyi kullanmayın. Takma adlar uygunsuz kelime listesine göre denetlenir.
 - **Skorlar:** her Sonsuz oyunun sonunda oyun, sunucunun skorun makul olduğunu denetleyebilmesi ve her oyunu bir kez sayabilmesi için son skorunuzu hamle sayısı, temizlenen satır sayısı, oynama süresi, rastgele bir oyun kimliği ve uygulama sürümüyle birlikte gönderir. Tüm zamanların en iyi skorunuz ve her haftanın en iyi skorunuz (takma adınız ve elde edildiği zamanla) saklanır ve sıralamada tüm oyunculara gösterilir. Haftalık tablolar geçmiş olarak saklanır. Bağlantı yokken gönderilemeyen skorlar cihazınızda bekler ve sonra gönderilir.
+- **Günlük Görev skorları:** bir Günlük Görev denemesini bitirdiğinizde oyun bu skoru rastgele bir oyun kimliğiyle o günün Günlük tablosuna gönderir. Günün en iyi skorunuz (takma adınızla) saklanır; günün en yüksek skoru diğer oyunculara "Bugünün zirvesi" olarak gösterilir. Günlük tablolar geçmiş olarak saklanır.
 - **App Check**, isteğin gerçek uygulamadan geldiğine dair Apple (App Attest) ya da Google (Play Integrity) doğrulaması gönderir; kişisel veri içermez.
 - **Kurallar:** Sıralama ekranını ilk açtığınızda kurallarını kabul etmeniz istenir (saygılı olun; uygunsuz takma adlar kaldırılır ve oyuncular yasaklanabilir). Yalnızca kabul ettiğiniz bilgisi, cihazınızda saklanır.
 - **Şikâyetler:** başka bir oyuncuyu Sıralama satırındaki "diğer" düğmesinden şikâyet edebilirsiniz (sebep: uygunsuz takma ad, hileli skor ya da başka bir şey). Şikâyette anonim oyuncu kimliğiniz, şikâyet edilen oyuncunun anonim oyuncu kimliği, tablo, sebep, şikâyet edilen takma adın o anki kopyası ve zaman saklanır. Şikâyetleri yalnızca geliştirici okuyabilir, diğer oyuncular okuyamaz; şikâyet edilen oyuncuya kimin şikâyet ettiği söylenmez.

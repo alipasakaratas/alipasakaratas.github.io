@@ -4,7 +4,7 @@ permalink: /bloqu/privacy/
 ---
 # Bloqu Privacy Policy
 
-**Effective date:** 6 November 2026
+**Effective date:** 9 November 2026
 
 Türkçe sürüm: [Gizlilik Politikası (Türkçe)](/bloqu/privacy-tr/)
 
@@ -85,6 +85,7 @@ When the Endless leaderboards are available, Bloqu uses **Firebase Authenticatio
 - **Anonymous player ID:** the first time the game talks to the leaderboard it signs in anonymously. Firebase creates a random user ID for this installation; it is not linked to your name, email, phone number or store account. It is kept on your device so your rows stay yours.
 - **Nickname:** you get a random nickname (for example "Player1234" / "Oyuncu1234"); you can change it in Rankings. Nicknames are **public**: every player can see them next to scores. Please do not use your real name or anything personal. Nicknames are checked against a list of offensive words.
 - **Scores:** at the end of each Endless game the game sends your final score with the number of moves, lines cleared, play time, a random game ID and the app version, so the server can check that the score is plausible and count each game once. Your best all-time score and your best score of each week (with your nickname and the time it was achieved) are stored and shown to all players on the leaderboards. Weekly boards are kept as history. Scores that could not be sent (no connection) wait on your device and are sent later.
+- **Daily Challenge scores:** when you finish a Daily Challenge try, the game sends that score with a random game ID to the day's Daily board. Your best score of the day (with your nickname) is stored, and the highest score of the day is shown to other players as "Today's top". Daily boards are kept as history.
 - **App Check** sends an attestation from Apple (App Attest) or Google (Play Integrity) that the request comes from the genuine app; it contains no personal data.
 - **Rules:** the first time you open Rankings you are asked to accept its rules (be respectful; offensive nicknames are removed and players can be banned). Only the fact that you accepted is stored, on your device.
 - **Reports:** you can report another player from the "more" button on their Rankings row (reason: offensive nickname, cheating score or something else). The report stores your anonymous player ID, the reported player's anonymous player ID, the board, the reason, a copy of the reported nickname at that moment and the time. Reports are only readable by the developer, never by other players, and the reported player is not told who reported them.
